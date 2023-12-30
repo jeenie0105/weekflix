@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
     <section>
-        <div class="login_container">
-            <select name="" id="lang_select">
-                <option value="eng">English</option>
-                <option value="kor" selected>한국어</option>
-            </select>
-            <button onclick="alert('hello')">로그인</button>
-        </div>
+      <div class="login_container">
+        <select name="" id="lang_select">
+          <option value="eng">English</option>
+          <option value="kor" selected>한국어</option>
+        </select>
+        <button onclick="alert('hello')">로그인</button>
+      </div>
+      <div class="main_search_container">
+        <h1>WeekFlix</h1>
+        <p>
+          영화와 드라마 시리즈를 <br />
+          무제한으로.
+        </p>
+        <p>다양한 디바이스에서 시청하세요. 언제든지 해지하실 수 있습니다.</p>
+        <p>
+          시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
+          입력하세요.
+        </p>
+        <form action="">
+          <input type="text" placeholder="이메일주소" id="search" />
+          <button>시작하기</button>
+        </form>
+      </div>
     </section>
     <section>section02</section>
     <section>section03</section>
     <section>section04</section>
     <section>section05</section>
-</body>
+  </body>
 </html>
