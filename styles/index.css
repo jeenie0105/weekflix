@@ -108,6 +108,67 @@ section:nth-child(2){
   background-color: pink;
   display: none;
 }
-.tabs_container .tab_contents > div:nth-child(1){
+/* .tabs_container .tab_contents > div:nth-child(1){
   display: block;
+} */
+
+.tabs_container>button:nth-child(1):hover~.tab_contents>div:nth-child(1){
+  display: block;
+}
+.tabs_container>button:nth-child(2):hover~.tab_contents>div:nth-child(2){
+  display: block;
+}
+.tabs_container>button:nth-child(3):hover~.tab_contents>div:nth-child(3){
+  display: block;
+}
+
+
+section:nth-child(3){
+  color: white;
+}
+
+.tab_contents > div{
+  display: none;
+  height: 200px;
+  background-color: gray;
+}
+
+section:nth-child(3) input:nth-child(1):checked~.tab_contents>div:nth-child(1) {
+  display: block;
+}
+section:nth-child(3) input:nth-child(2):checked~.tab_contents>div:nth-child(2) {
+  display: block;
+}
+section:nth-child(3) input:nth-child(3):checked~.tab_contents>div:nth-child(3) {
+  display: block;
+}
+
+.tabs_form{
+  width: 50%;
+}
+
+section:nth-child(3){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(3) input[type="radio"]{
+  display: none;
+}
+
+section:nth-child(3) label{
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 10px 10px 0 0;
+}
+
+section:nth-child(3) input:nth-child(1):checked ~ label:nth-of-type(1){
+  background-color: red;
+}
+section:nth-child(3) input:nth-child(2):checked ~ label:nth-of-type(2){
+  background-color: red;
+}
+section:nth-child(3) input:nth-child(3):checked ~ label:nth-of-type(3){
+  background-color: red;
 }
