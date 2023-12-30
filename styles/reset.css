@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding, border를 사용할 때 width, height 포함되도록하여 크기가 함부로 변경되지 않도록 함 */
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-size: 12px;
+}
