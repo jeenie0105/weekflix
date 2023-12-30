@@ -6,6 +6,8 @@ section {
 section:nth-child(1) {
   background-color: yellow;
   background-image: url(https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  box-shadow: inset 0 0 250px black, inset 0 0 250px black,
+    inset 0 0 250px black, inset 0 0 250px black;
 }
 section:nth-child(2) {
   background-color: orange;
@@ -44,7 +46,7 @@ section:nth-child(5) {
 
 .main_search_container h1 {
   font-size: 100px;
-  color: white;
+  color: red;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
     0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 5px black,
     0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black,
