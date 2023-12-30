@@ -91,3 +91,23 @@ section:nth-child(5) {
 #search:focus::placeholder {
   color: red;
 }
+
+section:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs_container{
+  width: 50%;
+}
+.tabs_container button{
+  padding: 20px 30px;
+}
+.tabs_container .tab_contents > div{
+  height: 200px;
+  background-color: pink;
+  display: none;
+}
+.tabs_container .tab_contents > div:nth-child(1){
+  display: block;
+}
